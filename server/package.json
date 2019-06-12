@@ -1,0 +1,24 @@
+{
+  "name": "testTw",
+  "version": "1.0.0",
+  "description": "TestTw",
+  "main": "app.js",
+  "scripts": {
+    "server-dev": "cross-env NODE_ENV=prod nodemon server.js",
+    "server-test": "cross-env NODE_ENV=test nodemon server/index.js"
+  },
+  "author": "Dragos Romaniuc",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^2.1.8",
+    "ejs": "^2.6.1",
+    "ejs-layouts": "0.0.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.5.11",
+    "nodemon": "^1.19.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}

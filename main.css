@@ -1,0 +1,258 @@
+html{
+    height: 90%;
+    width: 90%;
+    background-color: #c0dfd9;
+    margin: auto;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+  }
+
+.normalTab{
+    color: rgba( 0, 0, 0, 0.63 );
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.normalTab2{
+    color: rgba( 0, 0, 0, 0.63 );
+    line-height: 35px;
+    font-weight: normal;
+}
+
+
+
+.normalTab:hover{
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #c0dfd9;
+    color: black;
+    cursor: pointer;
+    border-radius:4px;
+}
+
+.normalTab2:hover{
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #b6a2b0;
+    color: rgb(39, 19, 19);
+    cursor: pointer;
+    border-radius:6px;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333;
+    height: 100%;
+    width: auto;
+    
+}
+
+input[type="submit"]{
+    display: inline-block;
+    background: #3b3a36;
+    width: 5%px;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+    border: 0px;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.2s ease;
+  }
+  
+  input[type="submit"]:hover{
+    background: #e9ece5;
+  }
+
+.form{
+    background: #edeff1;
+    margin: 0px auto;
+    padding-top: 25px;
+    border-radius: 21px;
+    width: 425px;
+    height: 250px;
+    display: inline-block;
+  }
+  
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: auto;
+    height: 90%;
+}
+
+#navigationwrap {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: auto;
+    position: relative;
+    /* background: #ebeded; */
+    border-radius: 4px;
+    /* border: 1px solid #eb; */
+    margin: 5px;
+}
+
+#contentwrap {
+    width: 80%;
+    float: left;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.content2 {
+    background: white;
+    border-radius: 40px;
+    border: 3px solid #a0999e;
+    background-color: #b6a2b0;
+    margin: 31px;
+    position: relative;
+    height: 87%;
+    overflow: auto;
+    
+}
+.content {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e9ece5;
+    margin: 5px;
+    position: relative;
+    height: 97%;
+    overflow: auto;
+    
+}
+
+#leftcolumnwrap {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: auto;
+    
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.leftcolumn {
+    background: #e9ece5;
+    border-radius: 10px;
+    border: 2px solid #dadada;
+    margin: 5px;
+    height: 97%;
+    border-radius: 20px;
+}
+
+.leftcolumn2{
+    background: #aa6896;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: 5px;
+    height: 97%;
+    border-radius: 10px;
+}
+
+#footerwrap {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    clear: both;
+}
+
+#footer {
+    height: 40px;
+    background: #ebeded;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    margin: 5px;
+}
+
+.buttons{
+    padding: 1%;
+   
+}
+
+
+ .button2:hover{
+    /* background-color: #e9ece5; */
+    /* font-size: 14px; */
+    cursor: pointer;
+    color: black;
+    }
+
+      
+    h3 {
+        font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+      }
+      
+      li img {
+        float: left;
+        margin: 0 15px 0 0;
+        /* position: relative; */
+        /* overflow: auto; */
+        width: 150px;
+        height: 150px;
+      }
+    
+li p {
+        font: 20 12px/1.5 Georgia, Times New Roman, serif;
+      }
+      
+li {
+    overflow: auto;
+    /* position: relative; */
+        padding: 10px;
+        /* overflow: auto; */
+        height: 100%;
+      }
+      
+li:hover {
+        background: #c0dfd9;
+        cursor: pointer;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    a:hover 
+    {
+         color:#00A0C6; 
+         text-decoration:none; 
+         cursor:pointer;  
+    }
+
+    .activeTab{
+        font-weight: 700;
+    font-size: 12px;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    cursor: pointer;
+    }
+
+    .chosenTopics{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .chosenTopics:hover{
+        cursor: pointer;
+    }
